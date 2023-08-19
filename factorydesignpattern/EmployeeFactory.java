@@ -1,4 +1,4 @@
-package factoryDesignPattern;
+package factorydesignpattern;
 
 public class EmployeeFactory {
 	public static Employee getEmployee(String empType) {

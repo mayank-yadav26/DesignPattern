@@ -1,4 +1,4 @@
-package factoryDesignPattern;
+package factorydesignpattern;
 
 interface Employee {
 	int salary();

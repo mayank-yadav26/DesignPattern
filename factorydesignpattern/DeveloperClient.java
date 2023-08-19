@@ -1,4 +1,4 @@
-package factoryDesignPattern;
+package factorydesignpattern;
 
 public class DeveloperClient {
 	 public static void main(String[] args) {

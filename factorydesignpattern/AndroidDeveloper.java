@@ -1,4 +1,4 @@
-package factoryDesignPattern;
+package factorydesignpattern;
 
 public class AndroidDeveloper implements Employee{
 
