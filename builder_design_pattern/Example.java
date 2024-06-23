@@ -2,7 +2,7 @@ package builder_design_pattern;
 
 public class Example {
 	public static void main(String[] args) {
-		User user = new User.UserBuilder()
+		User user = User.builder()
 				.setEmailId("mayankyadav@gmail.com")
 				.setUserName("Mayank")
 				.setUserId("123")
@@ -10,7 +10,7 @@ public class Example {
 		
 		System.out.println(user);
 		
-		User user2 = User.UserBuilder.builder()
+		User user2 = User.builder()
 				.setEmailId("mayankyadav@gmail.com")
 				.setUserId("123")
 				.setUserName("Mayank")

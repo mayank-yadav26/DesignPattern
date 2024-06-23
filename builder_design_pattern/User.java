@@ -29,17 +29,17 @@ public class User {
 	public String toString() {
 		return "User [userId=" + userId + ", userName=" + userName + ", emailId=" + emailId + "]";
 	}
-
+	
+	public static User.UserBuilder builder(){
+		return new User.UserBuilder();
+	}
+	
 	static class UserBuilder{
 		private String userId;
 		private String userName;
 		private String emailId;
 		
 		public UserBuilder() {}
-		
-		public static UserBuilder builder() {
-			return new UserBuilder();
-		}
 		
 		public UserBuilder setUserId(String userId) {
 			this.userId = userId;
